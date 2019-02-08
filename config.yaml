@@ -57,6 +57,8 @@ params:
       url: "/#features"
     - title: Download
       url: "/#download"
+    - title: Roadmap
+      url: "/roadmap"
     - title: GitHub
       url: https://github.com/falcosecurity/falco
     - title: Docs

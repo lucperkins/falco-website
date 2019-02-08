@@ -1,0 +1,34 @@
+{{ define "title" }}
+Falco | {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ $description := .Params.Description }}
+<section class="hero is-primary">
+  <div class="container">
+    <div class="hero-body">
+      <p class="title{{ if $description }} is-spaced{{ end }}">
+        {{ .Title }}
+      </p>
+      {{ with $description }}
+      <p class="subtitle">
+        {{ . }}
+      </p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<article class="article">
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+</article>
+
+
+{{ partial "footer.html" . }}
+{{ end }}
