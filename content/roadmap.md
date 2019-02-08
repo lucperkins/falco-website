@@ -2,7 +2,6 @@
 title: The Falco roadmap
 ---
 
-
 Here's a sketch of the features we're planning on adding to Falco in the next several releases. When relevant, we've included links to the relevant github issues. Afterward, we'll list the specific features we're planning on adding in the next Falco relase (0.7.0). Of course, plans may change, but this should give you an idea of what's on the roadmap for Falco. If you see specific features you're especially excited for, or if you have features that you'd like to see that aren't on this list, let us know!
 
 ## Overall Roadmap

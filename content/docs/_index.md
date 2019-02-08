@@ -43,3 +43,16 @@ When Falco detects suspicious behavior, it sends alerts via one or more of the f
 * Pipe to a spawned program. A common use of this output type would be to send an email for every falco notification.
 
 More details on these alerts are described [here](alerts).
+
+## Releases
+
+You can see a list of Falco releases [on GitHub](https://github.com/falcosecurity/falco/releases).
+
+## Blog posts
+
+Here are some posts from the [Sysdig blog](https://sysdig.com/blog) that you may find helpful:
+
+* [Introducing Falco](https://sysdig.com/blog/sysdig-falco/)
+* [Friends don't let friends curl | bash](https://sysdig.com/blog/friends-dont-let-friends-curl-bash/)
+* [Sending little bobby tables to detention](https://sysdig.com/blog/sending-little-bobby-tables-detention/)
+* [SELinux, Seccomp, Falco, and You: A Technical Discussion](https://sysdig.com/blog/selinux-seccomp-falco-technical-discussion)
